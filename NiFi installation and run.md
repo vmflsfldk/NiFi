@@ -11,9 +11,10 @@ NiFi 설치 및 구동 (Win 11)
    - 시스템 속성 - 고급 - 환경 변수 - 시스템 변수 - 새로 만들기
    - 변수 : CLASSPATH / 값 : %JAVA_HOME%lib 생성
    - 변수 : JAVA_HOME / 값 : JDK설치 경로 (default : C:\Program Files\Java\jdk-22) 생성
-     Path 변수에 C:\Program Files\Common Files\Oracle\Java\javapath
-                 %JAVA_HOME%bin
-                 C:\Program Files (x86)\Common Files\Oracle\Java\javapath 추가
+     Path 변수에
+   - C:\Program Files\Common Files\Oracle\Java\javapath
+   - %JAVA_HOME%bin
+   - C:\Program Files (x86)\Common Files\Oracle\Java\javapath 추가
      
      ![3](https://github.com/vmflsfldk/NiFi/assets/25484514/c0789483-23f1-4cd9-ab68-c3e5008f8c0d)
 
